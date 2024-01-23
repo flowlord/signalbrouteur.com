@@ -1,0 +1,228 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apple-inspired color scheme */
+body {
+    background-color: #dfdddd; /* White */
+    color: #333333; /* Dark gray */
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    min-height: 100vh; /* Assure que le corps de la page a au moins la hauteur de la fenêtre visible */
+    margin: 0;
+    padding: 0;
+}
+
+
+#no_number{
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#num_line{
+    background-color: rgb(106, 148, 206);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 15%;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 25px 25px 25px 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+
+#num_line_b{
+    background-color: rgb(106, 148, 206);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 35%;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 25px 25px 25px 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#num_line_b img{
+    width: 150px;
+    height: 150px;
+}
+
+#num_line a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+}
+
+
+.dc{
+    background-color: rgb(232, 146, 120);
+}
+
+.fb{
+    background-color: rgb(19, 82, 170);
+}
+
+.ig{
+    background-color: rgb(199, 83, 158);
+}
+
+.sc{
+    background-color: rgb(186, 186, 3);
+}
+
+.tw{
+    background-color: rgb(79, 79, 79);
+}
+
+
+#num{
+    font-size: xx-large;
+
+}
+
+
+#num_line img{
+    width: 70px;
+    height: 70px;
+    border-radius: 60%;
+    border: 1px solid black;
+}
+
+#ns{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #0073e6; /* Sea blue */
+    color: #ffffff; /* White */
+    padding: 35px;
+}
+
+
+nav {
+	background: #000000;
+	color: #FFF;
+	padding-left: 18px;
+}
+
+nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 45px;
+}
+
+nav a:hover{
+    color: #0073e6;
+    background-color: #000000;
+    transition-delay: 250ms;
+}
+
+
+#bubble{
+    display: block;
+    position: absolute;
+    bottom: 1%;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0073e6;
+    box-shadow: 0 0 10px #0073e6;
+    z-index: 1;
+    transition: opacity 1s;
+
+
+}
+
+#fm{
+    font-size: x-large;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.send{
+	background-color:#7892c2;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+.mobile-version{
+    display: none;
+    background-color: #ff5456;
+    color: white;
+    padding: 3px;
+}
+
+
+/* Adaptation pour les écrans plus petits */
+@media (max-width: 768px) {
+
+    .mobile-version{
+        display: block;
+    }
+
+    #num_line{
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+
+    nav a{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
